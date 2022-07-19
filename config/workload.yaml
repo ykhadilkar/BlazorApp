@@ -1,10 +1,10 @@
 apiVersion: carto.run/v1alpha1
 kind: Workload
 metadata:
-  name: BlazorApp
+  name: blazor-app
   labels:
     apps.tanzu.vmware.com/workload-type: web
-    app.kubernetes.io/part-of: blazorapp
+    app.kubernetes.io/part-of: blazor-app
     apps.tanzu.vmware.com/has-tests: true
 spec:
   params:
