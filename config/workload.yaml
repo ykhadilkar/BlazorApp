@@ -1,14 +1,14 @@
 apiVersion: carto.run/v1alpha1
 kind: Workload
 metadata:
-  name: tanzu-dotnet-web-app
+  name: BlazorApp
   labels:
     apps.tanzu.vmware.com/workload-type: web
-    app.kubernetes.io/part-of: tanzu-dotnet-web-app
+    app.kubernetes.io/part-of: blazorapp
     apps.tanzu.vmware.com/has-tests: true
 spec:
   source:
     git:
-      url: https://github.com/ykhadilkar/tanzu-dotnet-web-app
+      url: https://github.com/ykhadilkar/blazorapp
       ref:
         branch: main
