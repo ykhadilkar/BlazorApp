@@ -7,6 +7,12 @@ metadata:
     app.kubernetes.io/part-of: blazorapp
     apps.tanzu.vmware.com/has-tests: true
 spec:
+  params:
+  - name: annotations
+    value:
+      autoscaling.knative.dev/minScale: "1"
+  - name: language
+    value: dotnet
   source:
     git:
       url: https://github.com/ykhadilkar/blazorapp
