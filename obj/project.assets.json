@@ -626,33 +626,6 @@
           "lib/netstandard2.0/OpenTelemetry.Extensions.Hosting.dll": {}
         }
       },
-      "OpenTelemetry.Instrumentation.AspNetCore/1.0.0-rc9.2": {
-        "type": "package",
-        "dependencies": {
-          "OpenTelemetry": "1.2.0-rc5"
-        },
-        "compile": {
-          "lib/net6.0/OpenTelemetry.Instrumentation.AspNetCore.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0/OpenTelemetry.Instrumentation.AspNetCore.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
-      },
-      "OpenTelemetry.Instrumentation.Http/1.0.0-rc9.2": {
-        "type": "package",
-        "dependencies": {
-          "OpenTelemetry": "1.2.0-rc5"
-        },
-        "compile": {
-          "lib/netstandard2.0/OpenTelemetry.Instrumentation.Http.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/OpenTelemetry.Instrumentation.Http.dll": {}
-        }
-      },
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
         "type": "package",
         "runtimeTargets": {
@@ -1010,39 +983,6 @@
         "runtime": {
           "lib/netstandard2.1/Steeltoe.Management.OpenTelemetryBase.dll": {}
         }
-      },
-      "Steeltoe.Management.TracingBase/3.2.0": {
-        "type": "package",
-        "dependencies": {
-          "OpenTelemetry.Extensions.Hosting": "1.0.0-rc9.2",
-          "OpenTelemetry.Instrumentation.Http": "1.0.0-rc9.2",
-          "Steeltoe.Common": "3.2.0",
-          "Steeltoe.Extensions.Logging.Abstractions": "3.2.0",
-          "Steeltoe.Management.Abstractions": "3.2.0",
-          "Steeltoe.Management.OpenTelemetryBase": "3.2.0"
-        },
-        "compile": {
-          "lib/netstandard2.1/Steeltoe.Management.TracingBase.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.1/Steeltoe.Management.TracingBase.dll": {}
-        }
-      },
-      "Steeltoe.Management.TracingCore/3.2.0": {
-        "type": "package",
-        "dependencies": {
-          "OpenTelemetry.Instrumentation.AspNetCore": "1.0.0-rc9.2",
-          "Steeltoe.Management.TracingBase": "3.2.0"
-        },
-        "compile": {
-          "lib/net6.0/Steeltoe.Management.TracingCore.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0/Steeltoe.Management.TracingCore.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
       },
       "System.AppContext/4.3.0": {
         "type": "package",
@@ -3066,44 +3006,6 @@
         "opentelemetry.extensions.hosting.nuspec"
       ]
     },
-    "OpenTelemetry.Instrumentation.AspNetCore/1.0.0-rc9.2": {
-      "sha512": "PETuZ5Wd8dO9dA2/b8un8Fy1cR7BmmiiNwKgBSg6Hf+u9XXIM5ef7mZutSO/sLBFxsMRZpm5Q3bVrtL01nnS2A==",
-      "type": "package",
-      "path": "opentelemetry.instrumentation.aspnetcore/1.0.0-rc9.2",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net5.0/OpenTelemetry.Instrumentation.AspNetCore.dll",
-        "lib/net5.0/OpenTelemetry.Instrumentation.AspNetCore.xml",
-        "lib/net6.0/OpenTelemetry.Instrumentation.AspNetCore.dll",
-        "lib/net6.0/OpenTelemetry.Instrumentation.AspNetCore.xml",
-        "lib/netcoreapp3.1/OpenTelemetry.Instrumentation.AspNetCore.dll",
-        "lib/netcoreapp3.1/OpenTelemetry.Instrumentation.AspNetCore.xml",
-        "lib/netstandard2.0/OpenTelemetry.Instrumentation.AspNetCore.dll",
-        "lib/netstandard2.0/OpenTelemetry.Instrumentation.AspNetCore.xml",
-        "lib/netstandard2.1/OpenTelemetry.Instrumentation.AspNetCore.dll",
-        "lib/netstandard2.1/OpenTelemetry.Instrumentation.AspNetCore.xml",
-        "opentelemetry-icon-color.png",
-        "opentelemetry.instrumentation.aspnetcore.1.0.0-rc9.2.nupkg.sha512",
-        "opentelemetry.instrumentation.aspnetcore.nuspec"
-      ]
-    },
-    "OpenTelemetry.Instrumentation.Http/1.0.0-rc9.2": {
-      "sha512": "UTSlYfdG2qf9fepTT8K+ONCnrAM8csWS1mAHH1qUIgLQlyfGD3uuvt9EX/FJJuWG9aMNnjTGr+6lKVvxCQHzRg==",
-      "type": "package",
-      "path": "opentelemetry.instrumentation.http/1.0.0-rc9.2",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net461/OpenTelemetry.Instrumentation.Http.dll",
-        "lib/net461/OpenTelemetry.Instrumentation.Http.xml",
-        "lib/netstandard2.0/OpenTelemetry.Instrumentation.Http.dll",
-        "lib/netstandard2.0/OpenTelemetry.Instrumentation.Http.xml",
-        "opentelemetry-icon-color.png",
-        "opentelemetry.instrumentation.http.1.0.0-rc9.2.nupkg.sha512",
-        "opentelemetry.instrumentation.http.nuspec"
-      ]
-    },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
       "sha512": "HdSSp5MnJSsg08KMfZThpuLPJpPwE5hBXvHwoKWosyHHfe8Mh5WKT0ylEOf6yNzX6Ngjxe4Whkafh5q7Ymac4Q==",
       "type": "package",
@@ -3486,36 +3388,6 @@
         "lib/netstandard2.1/Steeltoe.Management.OpenTelemetryBase.xml",
         "steeltoe.management.opentelemetrybase.3.2.0.nupkg.sha512",
         "steeltoe.management.opentelemetrybase.nuspec"
-      ]
-    },
-    "Steeltoe.Management.TracingBase/3.2.0": {
-      "sha512": "oTr5FVeABMgE3si0vV3IQL5DE44vQzVUIaV7ibNsL/bWG+KButmTqIOiQBDOTHnC1Vucz9NJn+mJ5FQ+CriBZA==",
-      "type": "package",
-      "path": "steeltoe.management.tracingbase/3.2.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "icon.png",
-        "lib/netstandard2.1/Steeltoe.Management.TracingBase.dll",
-        "lib/netstandard2.1/Steeltoe.Management.TracingBase.xml",
-        "steeltoe.management.tracingbase.3.2.0.nupkg.sha512",
-        "steeltoe.management.tracingbase.nuspec"
-      ]
-    },
-    "Steeltoe.Management.TracingCore/3.2.0": {
-      "sha512": "ZfQWrlL3a+LVv/YSpU37SJjwezo51i5Hgr85u/bGSbltQivNow4AYkQvxFLbQhkEfoTc0gjsMFpbSMHkfqMy7g==",
-      "type": "package",
-      "path": "steeltoe.management.tracingcore/3.2.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "icon.png",
-        "lib/net6.0/Steeltoe.Management.TracingCore.dll",
-        "lib/net6.0/Steeltoe.Management.TracingCore.xml",
-        "lib/netcoreapp3.1/Steeltoe.Management.TracingCore.dll",
-        "lib/netcoreapp3.1/Steeltoe.Management.TracingCore.xml",
-        "steeltoe.management.tracingcore.3.2.0.nupkg.sha512",
-        "steeltoe.management.tracingcore.nuspec"
       ]
     },
     "System.AppContext/4.3.0": {
@@ -6866,9 +6738,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Steeltoe.Extensions.Logging.DynamicLogger >= 3.2.0",
-      "Steeltoe.Management.Endpointcore >= 3.2.0",
-      "Steeltoe.Management.TracingCore >= 3.2.0"
+      "Steeltoe.Management.Endpointcore >= 3.2.0"
     ]
   },
   "packageFolders": {
@@ -6908,15 +6778,7 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
-          "Steeltoe.Extensions.Logging.DynamicLogger": {
-            "target": "Package",
-            "version": "[3.2.0, )"
-          },
           "Steeltoe.Management.Endpointcore": {
-            "target": "Package",
-            "version": "[3.2.0, )"
-          },
-          "Steeltoe.Management.TracingCore": {
             "target": "Package",
             "version": "[3.2.0, )"
           }

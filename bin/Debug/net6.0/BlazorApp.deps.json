@@ -8,9 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "BlazorApp/1.0.0": {
         "dependencies": {
-          "Steeltoe.Extensions.Logging.DynamicLogger": "3.2.0",
-          "Steeltoe.Management.EndpointCore": "3.2.0",
-          "Steeltoe.Management.TracingCore": "3.2.0"
+          "Steeltoe.Management.EndpointCore": "3.2.0"
         },
         "runtime": {
           "BlazorApp.dll": {}
@@ -374,28 +372,6 @@
           }
         }
       },
-      "OpenTelemetry.Instrumentation.AspNetCore/1.0.0-rc9.2": {
-        "dependencies": {
-          "OpenTelemetry": "1.2.0"
-        },
-        "runtime": {
-          "lib/net6.0/OpenTelemetry.Instrumentation.AspNetCore.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.461"
-          }
-        }
-      },
-      "OpenTelemetry.Instrumentation.Http/1.0.0-rc9.2": {
-        "dependencies": {
-          "OpenTelemetry": "1.2.0"
-        },
-        "runtime": {
-          "lib/netstandard2.0/OpenTelemetry.Instrumentation.Http.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.461"
-          }
-        }
-      },
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
       "runtime.fedora.23-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
       "runtime.fedora.24-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
@@ -609,34 +585,6 @@
         },
         "runtime": {
           "lib/netstandard2.1/Steeltoe.Management.OpenTelemetryBase.dll": {
-            "assemblyVersion": "3.2.0.0",
-            "fileVersion": "3.2.0.0"
-          }
-        }
-      },
-      "Steeltoe.Management.TracingBase/3.2.0": {
-        "dependencies": {
-          "OpenTelemetry.Extensions.Hosting": "1.0.0-rc9.2",
-          "OpenTelemetry.Instrumentation.Http": "1.0.0-rc9.2",
-          "Steeltoe.Common": "3.2.0",
-          "Steeltoe.Extensions.Logging.Abstractions": "3.2.0",
-          "Steeltoe.Management.Abstractions": "3.2.0",
-          "Steeltoe.Management.OpenTelemetryBase": "3.2.0"
-        },
-        "runtime": {
-          "lib/netstandard2.1/Steeltoe.Management.TracingBase.dll": {
-            "assemblyVersion": "3.2.0.0",
-            "fileVersion": "3.2.0.0"
-          }
-        }
-      },
-      "Steeltoe.Management.TracingCore/3.2.0": {
-        "dependencies": {
-          "OpenTelemetry.Instrumentation.AspNetCore": "1.0.0-rc9.2",
-          "Steeltoe.Management.TracingBase": "3.2.0"
-        },
-        "runtime": {
-          "lib/net6.0/Steeltoe.Management.TracingCore.dll": {
             "assemblyVersion": "3.2.0.0",
             "fileVersion": "3.2.0.0"
           }
@@ -1600,20 +1548,6 @@
       "path": "opentelemetry.extensions.hosting/1.0.0-rc9.2",
       "hashPath": "opentelemetry.extensions.hosting.1.0.0-rc9.2.nupkg.sha512"
     },
-    "OpenTelemetry.Instrumentation.AspNetCore/1.0.0-rc9.2": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-PETuZ5Wd8dO9dA2/b8un8Fy1cR7BmmiiNwKgBSg6Hf+u9XXIM5ef7mZutSO/sLBFxsMRZpm5Q3bVrtL01nnS2A==",
-      "path": "opentelemetry.instrumentation.aspnetcore/1.0.0-rc9.2",
-      "hashPath": "opentelemetry.instrumentation.aspnetcore.1.0.0-rc9.2.nupkg.sha512"
-    },
-    "OpenTelemetry.Instrumentation.Http/1.0.0-rc9.2": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-UTSlYfdG2qf9fepTT8K+ONCnrAM8csWS1mAHH1qUIgLQlyfGD3uuvt9EX/FJJuWG9aMNnjTGr+6lKVvxCQHzRg==",
-      "path": "opentelemetry.instrumentation.http/1.0.0-rc9.2",
-      "hashPath": "opentelemetry.instrumentation.http.1.0.0-rc9.2.nupkg.sha512"
-    },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
       "type": "package",
       "serviceable": true,
@@ -1802,20 +1736,6 @@
       "sha512": "sha512-oOx7QzaRvpH0rv6ZR1TZrAAB0YQHCJX3bJBFCvhiVyVVvKnjb+i3WeSbBdNjNH7Tyto1/q+PWo/nQEO6wNaWQg==",
       "path": "steeltoe.management.opentelemetrybase/3.2.0",
       "hashPath": "steeltoe.management.opentelemetrybase.3.2.0.nupkg.sha512"
-    },
-    "Steeltoe.Management.TracingBase/3.2.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-oTr5FVeABMgE3si0vV3IQL5DE44vQzVUIaV7ibNsL/bWG+KButmTqIOiQBDOTHnC1Vucz9NJn+mJ5FQ+CriBZA==",
-      "path": "steeltoe.management.tracingbase/3.2.0",
-      "hashPath": "steeltoe.management.tracingbase.3.2.0.nupkg.sha512"
-    },
-    "Steeltoe.Management.TracingCore/3.2.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-ZfQWrlL3a+LVv/YSpU37SJjwezo51i5Hgr85u/bGSbltQivNow4AYkQvxFLbQhkEfoTc0gjsMFpbSMHkfqMy7g==",
-      "path": "steeltoe.management.tracingcore/3.2.0",
-      "hashPath": "steeltoe.management.tracingcore.3.2.0.nupkg.sha512"
     },
     "System.AppContext/4.3.0": {
       "type": "package",

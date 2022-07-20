@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "cWj2HIRkoTVs8Wu/B102rKb0rM7LEjyVze6+6kDoLl0ENwZuc0f4tuHoM71pFsSuayWoOkgycOXaC4NFjtl1UQ==",
+  "dgSpecHash": "bJpyQFYUpknmg5WZxuTkDgQANFrc1lfiYXTQrPLMz5x0Bi0qKQqCZLh80jb2DgIr++g7Qeo3jfZ3l6loX5K7HA==",
   "success": true,
   "projectFilePath": "/Users/ykhadilkar/Workspace/tap/tap-on-tkg/tap1.2/h20/BlazorApp/BlazorApp.csproj",
   "expectedPackageFiles": [
@@ -48,8 +48,6 @@
     "/Users/ykhadilkar/.nuget/packages/opentelemetry/1.2.0/opentelemetry.1.2.0.nupkg.sha512",
     "/Users/ykhadilkar/.nuget/packages/opentelemetry.api/1.2.0/opentelemetry.api.1.2.0.nupkg.sha512",
     "/Users/ykhadilkar/.nuget/packages/opentelemetry.extensions.hosting/1.0.0-rc9.2/opentelemetry.extensions.hosting.1.0.0-rc9.2.nupkg.sha512",
-    "/Users/ykhadilkar/.nuget/packages/opentelemetry.instrumentation.aspnetcore/1.0.0-rc9.2/opentelemetry.instrumentation.aspnetcore.1.0.0-rc9.2.nupkg.sha512",
-    "/Users/ykhadilkar/.nuget/packages/opentelemetry.instrumentation.http/1.0.0-rc9.2/opentelemetry.instrumentation.http.1.0.0-rc9.2.nupkg.sha512",
     "/Users/ykhadilkar/.nuget/packages/runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl/4.3.0/runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "/Users/ykhadilkar/.nuget/packages/runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl/4.3.0/runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "/Users/ykhadilkar/.nuget/packages/runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl/4.3.0/runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
@@ -77,8 +75,6 @@
     "/Users/ykhadilkar/.nuget/packages/steeltoe.management.endpointbase/3.2.0/steeltoe.management.endpointbase.3.2.0.nupkg.sha512",
     "/Users/ykhadilkar/.nuget/packages/steeltoe.management.endpointcore/3.2.0/steeltoe.management.endpointcore.3.2.0.nupkg.sha512",
     "/Users/ykhadilkar/.nuget/packages/steeltoe.management.opentelemetrybase/3.2.0/steeltoe.management.opentelemetrybase.3.2.0.nupkg.sha512",
-    "/Users/ykhadilkar/.nuget/packages/steeltoe.management.tracingbase/3.2.0/steeltoe.management.tracingbase.3.2.0.nupkg.sha512",
-    "/Users/ykhadilkar/.nuget/packages/steeltoe.management.tracingcore/3.2.0/steeltoe.management.tracingcore.3.2.0.nupkg.sha512",
     "/Users/ykhadilkar/.nuget/packages/system.appcontext/4.3.0/system.appcontext.4.3.0.nupkg.sha512",
     "/Users/ykhadilkar/.nuget/packages/system.buffers/4.3.0/system.buffers.4.3.0.nupkg.sha512",
     "/Users/ykhadilkar/.nuget/packages/system.collections/4.3.0/system.collections.4.3.0.nupkg.sha512",

@@ -13,7 +13,7 @@ builder.Services.AddSingleton<WeatherForecastService>();
 // Steeltoe actuators
 builder.AddHealthActuator();
 builder.AddInfoActuator();
-builder.AddLoggersActuator();
+
 
 var app = builder.Build();
 
