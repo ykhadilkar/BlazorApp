@@ -9,6 +9,7 @@ metadata:
     tanzu.app.live.view: "true"
     tanzu.app.live.view.application.flavours: "steeltoe"
     tanzu.app.live.view.application.name: "blazor-app"
+    tanzu.app.live.view.application.port: "5193"
 spec:
   params:
   - name: annotations
@@ -21,4 +22,3 @@ spec:
       url: https://github.com/ykhadilkar/BlazorApp
       ref:
         branch: master
-        
