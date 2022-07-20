@@ -11,9 +11,9 @@ builder.Services.AddServerSideBlazor();
 builder.Services.AddSingleton<WeatherForecastService>();
 // Add services to the container.
 // Steeltoe actuators
-builder.AddHealthActuator();
-builder.AddInfoActuator();
-
+// builder.AddHealthActuator();
+// builder.AddInfoActuator();
+builder.AddAllActuators();
 
 var app = builder.Build();
 
