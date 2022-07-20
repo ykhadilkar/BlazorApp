@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: blazor-app
+  description: Dotnet Blazor Web App
+  tags:
+    - app-accelerator
+    - dotnet
+    - web
+    - tanzu
+  annotations:
+    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=blazor-app'
+spec:
+  type: service
+  lifecycle: experimental
+  owner: default-team

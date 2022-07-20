@@ -15,6 +15,6 @@ spec:
     value: dotnet
   source:
     git:
-      url: https://github.com/ykhadilkar/blazorapp
+      url: https://github.com/ykhadilkar/BlazorApp
       ref:
-        branch: main
+        branch: master
