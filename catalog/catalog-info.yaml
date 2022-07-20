@@ -10,6 +10,8 @@ metadata:
     - tanzu
   annotations:
     'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=blazor-app'
+    'backstage.io/techdocs-ref': dir:.
+
 spec:
   type: service
   lifecycle: experimental
