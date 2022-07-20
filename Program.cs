@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
+using Steeltoe.Management.Endpoint;
 using BlazorApp.Data;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -8,6 +9,11 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 builder.Services.AddSingleton<WeatherForecastService>();
+// Add services to the container.
+// Steeltoe actuators
+builder.AddHealthActuator();
+builder.AddInfoActuator();
+builder.AddLoggersActuator();
 
 var app = builder.Build();
 
