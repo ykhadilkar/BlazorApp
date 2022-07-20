@@ -7,9 +7,8 @@ metadata:
     app.kubernetes.io/part-of: blazor-app
     apps.tanzu.vmware.com/has-tests: "true"
     tanzu.app.live.view: "true"
-    tanzu.app.live.view.application.flavours: "steeltoe"
-    tanzu.app.live.view.application.name: "blazor-app"
-    tanzu.app.live.view.application.port: "80"
+    tanzu.app.live.view.application.flavours: steeltoe
+    tanzu.app.live.view.application.name: blazor-app
 spec:
   params:
   - name: annotations
