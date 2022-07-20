@@ -1,0 +1,7 @@
+site_name: 'blazer-apps'
+
+nav:
+  - Home: index.md
+
+plugins:
+  - techdocs-core
