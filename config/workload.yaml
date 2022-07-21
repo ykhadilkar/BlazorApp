@@ -3,12 +3,12 @@ kind: Workload
 metadata:
   name: blazor-app
   labels:
+    tanzu.app.live.view.application.name: blazor-app
     apps.tanzu.vmware.com/workload-type: web
     app.kubernetes.io/part-of: blazor-app
     apps.tanzu.vmware.com/has-tests: "true"
     tanzu.app.live.view: "true"
     tanzu.app.live.view.application.flavours: steeltoe
-    tanzu.app.live.view.application.name: blazor-app
 spec:
   params:
   - name: annotations
