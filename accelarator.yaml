@@ -1,5 +1,5 @@
 accelerator:
-  displayName: Dotnet Blazor Accelerator
+  displayName: Dotnet Blazor
   description: Dotnet Blazor with best practices like health and info endpoint
   iconUrl: https://icons.iconarchive.com/icons/thesquid.ink/free-flat-sample/96/space-rocket-icon.png
   tags:
