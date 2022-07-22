@@ -1,7 +1,7 @@
 accelerator:
   displayName: Dotnet Blazor Accelerator
   description: Dotnet Blazor with best practices like health and info endpoint
-  iconUrl: https://upload.wikimedia.org/wikipedia/commons/d/d0/Blazor.png
+  iconUrl: https://icons.iconarchive.com/icons/thesquid.ink/free-flat-sample/96/space-rocket-icon.png
   tags:
   - simple
   - getting-started
