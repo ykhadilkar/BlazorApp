@@ -23,3 +23,5 @@ k8s_resource(NAME, port_forwards=["5193:5193"],
             extra_pod_selectors=[{'serving.knative.dev/service': 'blazor-app'}])
 
 allow_k8s_contexts('tap-large') # update the context
+
+
